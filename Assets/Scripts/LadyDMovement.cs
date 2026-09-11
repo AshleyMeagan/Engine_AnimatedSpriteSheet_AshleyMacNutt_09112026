@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BatMovement : MonoBehaviour
+public class LadyDMovement : MonoBehaviour
 {
 [SerializeField] private float moveSpeed = 5f;
 
@@ -37,8 +37,8 @@ private void FlipLadyD()
 {
 // This bat artwork faces left by default.
 if (moveInput.x > 0)
-spriteRenderer.flipX = true;
-else if (moveInput.x < 0)
 spriteRenderer.flipX = false;
+else if (moveInput.x < 0)
+spriteRenderer.flipX = true;
 }
 }

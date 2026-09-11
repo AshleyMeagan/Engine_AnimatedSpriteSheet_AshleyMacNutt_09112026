@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 1620519576}
   - component: {fileID: 1620519577}
   m_Layer: 0
-  m_Name: LadyDAnimatedSpriteSheet_0
+  m_Name: LadyD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
