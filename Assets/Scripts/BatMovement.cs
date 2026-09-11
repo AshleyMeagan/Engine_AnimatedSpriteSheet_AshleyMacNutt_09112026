@@ -31,7 +31,7 @@ public class BatMovement : MonoBehaviour
         bool isMoving = moveInput != Vector2.zero;
         animator.SetBool("IsMoving", isMoving);
 
-        FlipLadyD();
+        FlipBat();
     }
 
     private void FixedUpdate()
@@ -41,7 +41,7 @@ public class BatMovement : MonoBehaviour
         );
     }
 
-    private void FlipLadyD()
+    private void FlipBat()
     {
         if (moveInput.x > 0)
         {
